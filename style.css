@@ -1,22 +1,33 @@
 h1, h2 {
     font-family: 'Poppins', sans-serif;
-    color: #112D4E;
+    color: #4d4d4d;
 }
 
 p {
-    color: #3F72AF;
+    color: #6f9953f6;
 }
 
 body {
     font-family: 'Roboto Mono', monospace;
-    background-color: #939ba079;
-    width: 700px;
-    margin: 40px auto;
+    /* background-color: #939ba079; */
+    margin: 0px;
 }
 
 li {
     display: inline-block;
     padding: 10px;
+}
+
+.container {
+  width: 700px;
+  padding: 40px 0;
+  margin: 0 auto;
+}
+
+.background-image {
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  padding: 40px;
 }
 
 .profile-img {
@@ -34,13 +45,17 @@ li {
 }
 
 .card {
-    border-color: rgb(200,200,200);
+    border-color: rgb(224, 186, 217);
     padding: 40px;
-    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     border-radius: 10px;
     margin: 20px 0px;
     text-align: center;
-    background-color: #f4f4f5;
+    background-color: #262626;
+}
+
+.card:nth-child(1){
+  margin: 0;
 }
 
 .fab {
@@ -51,7 +66,7 @@ li {
 }
 
 .fab:hover {
-    color: #1E2022;
+    color: #fad0ef;
     box-shadow: 1em;
 
 }
@@ -74,4 +89,5 @@ li {
       width: 300px;
     }
   }
+
   
